@@ -26,18 +26,18 @@ We have three different architectures for the defense module. GAN, Autoencoder, 
 ![Architecture Diagram](https://raw.githubusercontent.com/ohamdash/Transfer-Learning-Based-Modular-Defense-Against-Natural-Adversarial-Examples/main/assets/architecture.png)
 
 ### Installation
-1. Clone the repository:
+1. **Clone the repository:**
 ```bash
 git clone <repository-url>
 cd <repository-name>
 ```
 
-2. Install dependencies:
+2. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Prepare datasets:
+3. **Prepare datasets:**
 ```bash
 # Create directory structure
 mkdir -p original-datasets/imagenet-a
@@ -52,7 +52,7 @@ mkdir -p original-datasets/imagenet
 # Prepare dataset
 python3 prepare_dataset_plus.py
 ```
-4. Prepare the validation dataset: Install the official imagenet validation dataset as a `.tar` file, then run the `prepare.sh` script to prepare the dataset. Finally, move the desired classes to the desired datasets folder by running `copy_dirs.py`.
+4. **Prepare the validation dataset:** Install the official imagenet validation dataset as a `.tar` file, then run the `prepare.sh` script to prepare the dataset. Finally, move the desired classes to the desired datasets folder by running `copy_dirs.py`.
 
 ### Quick Start
 **Generate and save features:**
